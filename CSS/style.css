@@ -155,7 +155,7 @@
     }
 
     .number.occupied {
-        background-image: url("/img/una.avif");
+        background-image: url("img/una.avif");
         background-position: center; /* Center the image */
         background-size: cover; /* Resize the background image to cover the entire container */
         background-repeat: round; /* Do not repeat the image */
