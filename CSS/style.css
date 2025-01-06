@@ -155,13 +155,15 @@
     }
 
     .number.occupied {
-        background-image: url("../img/una.avif");
+        background: #25fcfc9a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #0f0f0f, #3744ff, #0c53eb);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #0f0f0f, #3744ff, #0c53eb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-position: center; /* Center the image */
         background-size: cover; /* Resize the background image to cover the entire container */
         background-repeat: round; /* Do not repeat the image */
         color: white;
         cursor: not-allowed;
-        font-weight: 300;
+        font-weight: 600;
     }
 
     .number.selected {
