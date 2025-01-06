@@ -354,6 +354,11 @@ h2:hover {
   height: auto;
 }
 
+.ml5 .letters {
+  font-size: 24px;
+}
+
+
 }
 
 /* Galaxy S20 (360x800) */
@@ -388,6 +393,11 @@ h1 {
   font-size: 1.8em;
 }
 
+.ml5 .letters {
+  font-size: 20px;
+}
+
+
 }
 
 /* iPad (810x1080) */
@@ -415,6 +425,10 @@ h1 {
 
 h1 {
     font-size: 2em;
+}
+
+.ml5 .letters {
+  font-size: 20px;
 }
 }
 
