@@ -472,18 +472,48 @@ h1 {
 }
 
 
-.ml16 {
-  color: #f7f7f7;
-  padding: 8px;
-  font-weight: 800;
-  font-size: 2em;
-  text-transform: uppercase;
-  overflow: hidden;
+.ml5 {
+  position: relative;
+  font-size: 2.7em;
+  color: #f8f7f7;
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
 }
 
-.ml16 .letter {
+.ml5 .text-wrapper {
+  position: relative;
   display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
   line-height: 1em;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 2em;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .letters {
+  display: inline-flexbox;  
+  opacity: 0;
 }
 
 
