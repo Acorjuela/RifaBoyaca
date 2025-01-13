@@ -93,6 +93,7 @@ modalForm.addEventListener('submit', async (e) => {
         Ciudad: document.getElementById('Ciudad').value,
         País: document.getElementById('País').value,
         Responsable: document.getElementById('Nombre_de_responsable').value,
+        Color: document.getElementById('Colores_responsable').value,
         CelularResponsable: document.getElementById('Celular_de_responsable').value,
         Premio: document.getElementById('Premio').value,
         NúmerosSeleccionados: selectedNumbers.join(','), // Guardar como "025,026,027"
@@ -130,6 +131,7 @@ modalForm.addEventListener('submit', async (e) => {
                 <p><b>País:</b> ${formData.País}</p>
                 <p><b>Responsable:</b> ${formData.Responsable}</p>
                 <p><b>Celular Responsable:</b> ${formData.CelularResponsable}</p>
+                <p><b>Color Responsable:</b> ${formData.Color}</p>
                 <p><b>Premio:</b> ${formData.Premio}</p>
                 <p><b>Números Seleccionados:</b> ${selectedNumbers.join(', ')}</p>
                 <p><b>Total a pagar:</b> $${total.toLocaleString()}</p>
