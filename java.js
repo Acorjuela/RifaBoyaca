@@ -85,7 +85,7 @@ modalForm.addEventListener('submit', async (e) => {
     const selectedNumbers = [...document.querySelectorAll('.number.selected')].map(el => el.textContent.padStart(3, '0'));
 
     // Calcular el total a pagar
-    const total = selectedNumbers.length * 20000; // $20000 por cada número seleccionado
+    const total = selectedNumbers.length * 5000; // $20000 por cada número seleccionado
 
     const formData = {
         Nombres: document.getElementById('Nombres').value,
