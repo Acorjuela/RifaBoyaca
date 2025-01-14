@@ -5,7 +5,7 @@ const modal = document.getElementById('modal');
 const modalForm = document.getElementById('modalForm');
 
 // URL de Google Sheets
-const SHEET_URL = "https://api.sheetbest.com/sheets/52c1efd4-2d5a-4727-bca1-77e5208d6b89";
+const SHEET_URL = "https://api.sheetbest.com/sheets/5bd410ad-1cab-40b2-9a1e-d5dfcdfee98d";
 
 let numerosOcupados = [];
 
