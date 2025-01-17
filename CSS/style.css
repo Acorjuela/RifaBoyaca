@@ -1,4 +1,4 @@
-       /* Estilos generales */
+          /* Estilos generales */
        * {
         margin: 0;
         padding: 0;
@@ -161,7 +161,7 @@
         background-position: center; /* Center the image */
         background-size: cover; /* Resize the background image to cover the entire container */
         background-repeat: round; /* Do not repeat the image */
-        color: white;
+        color: rgb(250, 248, 248);
         cursor: not-allowed;
         font-weight: 600;
     }
