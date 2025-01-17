@@ -3,9 +3,6 @@ const selectionOption = document.getElementById('selectionOption');
 const registerBtn = document.getElementById('registerBtn');
 const modal = document.getElementById('modal');
 const modalForm = document.getElementById('modalForm');
-// Obtener la fecha y hora actuales
-const now = new Date();
-const fechaActual = now.toLocaleDateString(); // Formato de fecha (ej: 16/01/2025)
 
 
 
@@ -103,7 +100,8 @@ modalForm.addEventListener('submit', async (e) => {
         Premio: document.getElementById('Premio').value,
         NúmerosSeleccionados: selectedNumbers.join(','), // Guardar como "025,026,027"
         Total: total, // Agregar el total al objeto
-        FechaYHora: `${fechaActual}` // Nueva entrada para fecha y hora
+        FechaRegistro: new Date().toISOString().split('T')[0] // Fecha en formato YYYY-MM-DD
+        
     };
 
     try {
