@@ -6,7 +6,7 @@ const modalForm = document.getElementById('modalForm');
 // Obtener la fecha y hora actuales
 const now = new Date();
 const fechaActual = now.toLocaleDateString(); // Formato de fecha (ej: 16/01/2025)
-const horaActual = now.toLocaleTimeString(); // Formato de hora (ej: 15:30:45)
+
 
 
 // URL de Google Sheets
@@ -103,7 +103,7 @@ modalForm.addEventListener('submit', async (e) => {
         Premio: document.getElementById('Premio').value,
         NúmerosSeleccionados: selectedNumbers.join(','), // Guardar como "025,026,027"
         Total: total, // Agregar el total al objeto
-        FechaYHora: `${fechaActual} ${horaActual}` // Nueva entrada para fecha y hora
+        FechaYHora: `${fechaActual}` // Nueva entrada para fecha y hora
     };
 
     try {
