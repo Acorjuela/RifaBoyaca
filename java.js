@@ -142,7 +142,7 @@ modalForm.addEventListener('submit', async (e) => {
                 <p><b>Números Seleccionados:</b> ${selectedNumbers.join(', ')}</p>
                 <p><b>Total a pagar:</b> $${total.toLocaleString()}</p>
                 <br>
-                <p>No olvides realizar las capturas de pantalla, por favor. El 5 de Abril de 2025, gracias por registrarte. ¡Buena suerte!</p>
+                <p>No olvides realizar las capturas de pantalla, por favor. El 28 de diciembre de 2024, gracias por registrarte. ¡Buena suerte!</p>
             `
         }).then(() => {
             // Cerrar el modal y resetear formulario
