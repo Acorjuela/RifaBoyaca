@@ -90,7 +90,7 @@ modalForm.addEventListener('submit', async (e) => {
     const selectedNumbers = [...document.querySelectorAll('.number.selected')].map(el => el.textContent.padStart(3, '0'));
 
     // Calcular el total a pagar
-    const total = selectedNumbers.length * 5000; // $20000 por cada número seleccionado
+    const total = selectedNumbers.length * 20000; // $20000 por cada número seleccionado
 
     const formData = {
         Nombres: document.getElementById('Nombres').value,
@@ -102,7 +102,7 @@ modalForm.addEventListener('submit', async (e) => {
         CelularResponsable: document.getElementById('Celular_de_responsable').value,
         Premio: document.getElementById('Premio').value,
         NúmerosSeleccionados: selectedNumbers.join(','), // Guardar como "025,026,027"
-        Total: total // Agregar el total al objeto
+        Total: total, // Agregar el total al objeto
         FechaYHora: `${fechaActual} ${horaActual}` // Nueva entrada para fecha y hora
     };
 
@@ -142,7 +142,7 @@ modalForm.addEventListener('submit', async (e) => {
                 <p><b>Números Seleccionados:</b> ${selectedNumbers.join(', ')}</p>
                 <p><b>Total a pagar:</b> $${total.toLocaleString()}</p>
                 <br>
-                <p>No olvides realizar las capturas de pantalla, por favor. El 5 de abril de 2025, gracias por registrarte. ¡Buena suerte!</p>
+                <p>No olvides realizar las capturas de pantalla, por favor. El 28 de diciembre de 2024, gracias por registrarte. ¡Buena suerte!</p>
             `
         }).then(() => {
             // Cerrar el modal y resetear formulario
