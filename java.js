@@ -100,7 +100,7 @@ modalForm.addEventListener('submit', async (e) => {
         Premio: document.getElementById('Premio').value,
         NúmerosSeleccionados: selectedNumbers.join(','), // Guardar como "025,026,027"
         Total: total, // Agregar el total al objeto
-        FechaRegistro: new Date().toISOString().split('T')[0] // Fecha en formato YYYY-MM-DD
+        FechaRegistro: new Date().toLocaleDateString('es-CO') // Fecha en formato DD/MM/YYYY
         
     };
 
