@@ -18,8 +18,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to bottom, #000046, #1CB5E0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000046, #1CB5E0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #333;
   height: auto; /* Cambia de 'none' a 'auto' */
   position: relative;
@@ -50,7 +50,7 @@ img {
 }
 
 .logo #loteria {
-  width: 454px;
+  width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
