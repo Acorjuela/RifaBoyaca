@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -169,13 +171,16 @@ h1, .subtext {
 button {
  width: 14em;
  height: 3em;
- background-image: linear-gradient(69deg, #00edcf 0%, #8200ed 100%);
+ background-image: linear-gradient(69deg, #0004ed 0%, #010cac 100%);
  border-radius: 30em;
  font-size: 20px;
  gap: -10%;
  border: none;
  color: #fff;
  position: relative;
+ font-family: "Chelsea Market", serif;
+ font-weight: 400;
+ font-style: normal;
  overflow: hidden;
  margin-top: -26px;
  z-index: 1;
@@ -253,6 +258,11 @@ canvas {
     font-size: 1.2rem;
     
   }
+
+  
+  .ml5  {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -273,6 +283,8 @@ canvas {
     align-items: flex-start;
     gap: 5px;
   }
+
+
 }
 
 .modal {
@@ -353,10 +365,10 @@ h2:hover {
   width: 80%; /* Ajusta el tamaño del logo */
   height: auto;
 }
-
 .ml5 .letters {
   font-size: 24px;
 }
+
 
 
 }
@@ -392,11 +404,9 @@ body {
 h1 {
   font-size: 1.8em;
 }
-
 .ml5 .letters {
-  font-size: 20px;
+  font-size: 1%;
 }
-
 
 }
 
@@ -420,7 +430,8 @@ h1 {
 
 @media screen and (max-width: 768px) {
 .logo #loteria {
-  width: 500px; /* Ajuste del logo */
+  width: 465px;
+  
 }
 
 h1 {
@@ -428,8 +439,12 @@ h1 {
 }
 
 .ml5 .letters {
-  font-size: 20px;
+  font-size: 10px;
 }
+
+
+
+
 }
 
 
@@ -488,11 +503,11 @@ h1 {
 
 .ml5 {
   position: relative;
-  font-size: 2.7em;
-  color: #f8f7f7;
-  font-family: Baskerville, serif;
+  font-size: 1.9em;
+  color: #ffffff;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
   font-style: italic;
-  font-weight: 400;
 }
 
 .ml5 .text-wrapper {
