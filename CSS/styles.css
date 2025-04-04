@@ -219,11 +219,6 @@ button:hover::before {
   width: 14em;
 }
 
-h2:hover {
-  background: linear-gradient(90deg, #76ff03, #00c853);
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 200, 83, 0.5);
-}
 
 .popup {
   position: fixed;
@@ -354,12 +349,6 @@ canvas {
   text-align: center;
   color: rgb(255, 255, 255);
   border: 4px solid #072bf7;
-}
-
-h2:hover {
-  background: linear-gradient(90deg, #0025c8, #03e2ff);
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 200, 83, 0.5);
 }
 
 .btn:disabled {
