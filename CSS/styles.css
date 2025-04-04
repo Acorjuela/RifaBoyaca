@@ -201,7 +201,7 @@ button {
   box-shadow: 6px 6px 12px #000000;
 }
 
-button::before {
+#butt_arte::before {
   content: '';
   width: 0;
   height: 3em;
@@ -215,10 +215,9 @@ button::before {
   z-index: -1;
 }
 
-button:hover::before {
+#butt_arte:hover::before {
   width: 14em;
 }
-
 
 .popup {
   position: fixed;
@@ -351,13 +350,13 @@ canvas {
   border: 4px solid #072bf7;
 }
 
-.btn:disabled {
+.modal-buttons .confirm:disabled {
   background: gray;
   cursor: not-allowed;
 }
 
-.btn:disabled:hover {
-  background: linear-gradient(90deg, #ff2003, #fd0101);
+.modal-buttons .confirm:hover {
+  background: linear-gradient(90deg, #b32b19, #630101);
   cursor: not-allowed;
 }
 
