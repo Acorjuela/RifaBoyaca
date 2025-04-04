@@ -32,12 +32,28 @@
  
  
  
- // Deshabilitar botón
- const disableButton = () => {
-   openModalButton.disabled = true;
-   openModalButton.innerText = "Registro cerrado";
-   openModalButton.classList.add("disabled");
- };
+// Deshabilitar botón
+const disableButton = () => {
+  if (openModalButton) {
+      openModalButton.disabled = true;
+      openModalButton.innerText = "Registro cerrado";
+      openModalButton.classList.add("disabled");
+
+      // Mostrar mensaje
+      document.getElementById("message").style.display = "block";
+
+      // Mostrar alerta de SweetAlert2
+      Swal.fire({
+          icon: "error",
+          title: "¡Inscripciones cerradas Rifas de Boyacá!",
+          text: "El tiempo de inscripción ha finalizado.",
+          confirmButtonText: "Entendido",
+          customClass: {
+              popup: "custom-swal"
+            }
+      });
+  }
+};
  
  // Abrir el modal
  openModalButton.addEventListener("click", () => {
