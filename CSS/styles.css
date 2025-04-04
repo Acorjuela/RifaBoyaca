@@ -316,9 +316,16 @@ canvas {
   border: none;
 }
 
+#message {
+  margin: 19px;
+  padding: 1px;
+}
+
+
 #Gana {
   font-size: 1.9em;
   margin: 19px;
+  margin-top: -19px;
   color: #ffff;
 }
 
