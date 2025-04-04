@@ -358,14 +358,10 @@ canvas {
 }
 
 .modal-buttons .confirm:disabled {
-  background: gray;
-  cursor: not-allowed;
-}
-
-.modal-buttons .confirm:hover {
   background: linear-gradient(90deg, #b32b19, #630101);
   cursor: not-allowed;
 }
+
 
 /* iPhone 12 Pro (390x844) */
 @media screen and (max-width: 390px) {
