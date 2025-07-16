@@ -7,7 +7,7 @@
  
  // Temporizador
  const countdown = () => {
-   const launchDate = new Date("Juli 25, 2025 00:00:00").getTime();
+   const launchDate = new Date("August 25, 2025 00:00:00").getTime();
    const now = new Date().getTime();
    const timeLeft = launchDate - now;
  
