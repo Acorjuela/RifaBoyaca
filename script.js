@@ -7,7 +7,7 @@
  
  // Temporizador
  const countdown = () => {
-   const launchDate = new Date("August 25, 2025 00:00:00").getTime();
+   const launchDate = new Date("October 22, 2025 00:00:00").getTime();
    const now = new Date().getTime();
    const timeLeft = launchDate - now;
  
@@ -81,3 +81,4 @@ const disableButton = () => {
  const timer = setInterval(countdown, 1000);
  
  
+
